@@ -1,0 +1,45 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100% - 68px);
+  gap: 30px;
+}
+
+.card {
+  background-color: burlywood;
+  padding: 40px 45px;
+  border-radius: 15px;
+  display: flex;
+  gap: 20px;
+}
+
+.image {
+  border-radius: 15px;
+}
+
+.mainInfo {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.priceWrapper {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  & p {
+    font-size: 20px;
+  }
+
+  & s {
+    font-size: 20px;
+  }
+}
+
+.prices {
+  display: flex;
+  gap: 10px;
+}

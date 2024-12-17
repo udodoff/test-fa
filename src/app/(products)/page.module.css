@@ -1,0 +1,51 @@
+.page {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.root {
+  height: calc(100% - 68px);
+  padding: 20px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.modifyButton {
+  background-color: chartreuse;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+.content {
+  width: 100%;
+}
+
+.search {
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add {
+  background-color: chartreuse;
+  width: fit-content;
+
+  & > p {
+    text-wrap: nowrap;
+  }
+}

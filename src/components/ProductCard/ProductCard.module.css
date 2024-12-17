@@ -1,0 +1,55 @@
+.root {
+  padding: 20px;
+  background-color: burlywood;
+  border-radius: 15px;
+  cursor: pointer;
+  display: grid;
+  grid-template-rows: 1fr 150px 70px;
+}
+
+.image {
+  border-radius: 15px;
+}
+
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.updateButton {
+  background-color: chartreuse;
+  border: 1px solid black;
+}
+
+.deleteButton {
+  background-color: red;
+  border: 1px solid black;
+  color: white;
+}
+
+.mainInfo {
+  width: 300px;
+  display: grid;
+  grid-template-rows: 0.5fr 0.5fr 0.5fr;
+  margin-top: 10px;
+}
+
+.priceWrapper {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  & p {
+    font-size: 20px;
+  }
+
+  & s {
+    font-size: 20px;
+  }
+}
+
+.prices {
+  display: flex;
+  gap: 10px;
+}
